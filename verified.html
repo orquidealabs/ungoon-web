@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Email confirmed · Ungoon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="brand">UNGOON</p>
+
+<section id="ok-section" hidden>
+  <h1>Email confirmed</h1>
+  <p>Your Ungoon account is ready. Open the app and log in with your email and password.</p>
+  <a id="open-app" class="button" href="#">OPEN THE APP</a>
+</section>
+
+<section id="invalid-section" hidden>
+  <h1>Link expired</h1>
+  <p>This link was already used or is too old. If your email is already confirmed, just log in to the app. Otherwise, create the account again from the app.</p>
+</section>
+
+<script src="app-link.js"></script>
+<script src="verified.js"></script>
+</body>
+</html>
